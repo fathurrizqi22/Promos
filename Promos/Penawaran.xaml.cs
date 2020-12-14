@@ -42,11 +42,12 @@ namespace Promos
         private void generateContentPenawaran()
         {
             Item drink1 = new Item("Ice tea", 8000);
-            Item drink2 = new Item("Ice lemon tea", 5000);
+            Item drink2 = new Item("Ice jeruk", 4000);
             Item drink3 = new Item("Ice lemon", 7000);
-            Item food4 = new Item("Bakso", 17000);
+            Item food4 = new Item("Nasi goreng", 15000);
             Item food5 = new Item("Gado-gado", 14000);
-            Item food6 = new Item("Sate", 15000);
+            Item food6 = new Item("Rawon", 15000);
+            Item food7 = new Item("Kerupuk", 1000);
 
             controller.addItem(drink1);
             controller.addItem(drink2);
@@ -54,6 +55,7 @@ namespace Promos
             controller.addItem(food4);
             controller.addItem(food5);
             controller.addItem(food6);
+            controller.addItem(food7);
 
             listPenawaran.Items.Refresh();
         }
